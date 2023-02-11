@@ -35,9 +35,9 @@ echo -e "\e[1;34m                          \___)=(___/ \e[0m"
 echo ""
 while :
 do
-echo -e "\e[1;37m[\e[0m\e[1;31m1\e[0m\e[1;37m]. Sacar informacion ip de una pagina\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m1\e[0m\e[1;37m]. Sacar informacion IP de una pagina\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]. Hacer osint a una pagina\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]. Ve tu informacion de tu ip publica"
+echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]. Ve tu informacion de tu IP Publica"
 echo -e "\e[1;37m[\e[0m\e[1;31m4\e[0m\e[1;37m]. Hacer osint a una IP Publica"
 echo -e "\e[1;37m[\e[0m\e[1;31m99\e[0m\e[1;37m]. Salir\e[0m"
 echo -e -n "\e[1;37m[+]\e[0m\e[1;31mOpcion >>\e[0m "
@@ -47,11 +47,11 @@ case $opcion in
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo "[+]Ingrese la ip de la pagina que desee sacar informacion"
+echo "[+]Ingrese la IP de la pagina que desee sacar informacion"
 echo -n "[IP] >> "
 read a
 echo ""
-echo "[+]Buscando info de la ip ..."
+echo "[+]Buscando info de la IP..."
 sleep 3
 echo ""
 echo "---------Informacion----------"
