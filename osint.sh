@@ -1,5 +1,30 @@
 #! /bin/bash
 
+white="\033[1;37m"
+green="\033[1;32m"
+blue="\033[1;34m"
+
+echo -e "\e[1;34m------Verificando requisito------\e[0m"
+sleep 1
+echo ""
+
+#directory verification
+directory=$(pwd)
+
+
+if which whois >/dev/null; then
+sleep 1
+echo ""
+echo -e "$blue(whois) ................................................... Instalado [✓]"
+else
+sleep 1
+echo -e "(whois) No instalado [✗]"
+sleep 1
+echo -e "\e[1;32mInstalando whois ...\e[0m"
+sleep 3
+pkg install whois
+fi
+
 clear
 echo -e "\e[1;34m  ___      _       _          .--.\e[0m"
 echo -e "\e[1;34m / _ \ ___(_)_ __ | |_       |o_o |\e[0m"
