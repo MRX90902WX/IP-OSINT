@@ -10,6 +10,7 @@ cd IP-OSINT
 bash osint.sh
 
 #Menu 
+
 #Escojer una opción 
 1) Saca informacion de la ip de una pagina, teléfono,  direcciones , correos , City etc
 
