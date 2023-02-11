@@ -11,9 +11,9 @@ bash osint.sh
 
 #Menu 
 #Escojer una opción 
-1) Saca informacion de una ip , teléfono,  direcciones , correos , City etc
+1) Saca informacion de la ip de una pagina, teléfono,  direcciones , correos , City etc
 
-2) Hace recopilación de información pública como city, codigo postal,  correos , servidores , números de teléfonos etc
+2) Hace recopilación de información pública a una pagina como city, codigo postal,  correos , servidores , números de teléfonos etc
 
 3) Ve tu IP Publica asignada por tu wifi local
 
