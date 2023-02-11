@@ -19,7 +19,7 @@ bash osint.sh
 
 4) Hace recopilación de información de una IP Publica como proveedor , city, región, localización
 
-99) Salir.
+00) Salir.
 
 *****
 ☆ Sígu3me >_
