@@ -13,7 +13,13 @@ bash osint.sh
 #Escojer una opción 
 1) Saca informacion de una ip , teléfono,  direcciones , correos , City etc
 
-2) Hace recopilación de información pública como City, codigo postal,  correos , servidores , números de teléfonos etc
+2) Hace recopilación de información pública como city, codigo postal,  correos , servidores , números de teléfonos etc
+
+3) Ve tu IP Publica asignada por tu wifi local
+
+4) Hace recopilación de información de una IP Publica como proveedor , city, región, localización.
+
+99) Salir
 
 *****
 ☆ Sígu3me >_
