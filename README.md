@@ -17,9 +17,9 @@ bash osint.sh
 
 3) Ve tu IP Publica asignada por tu wifi local
 
-4) Hace recopilación de información de una IP Publica como proveedor , city, región, localización.
+4) Hace recopilación de información de una IP Publica como proveedor , city, región, localización
 
-99) Salir
+99) Salir.
 
 *****
 ☆ Sígu3me >_
