@@ -28,7 +28,7 @@ case $opcion in
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo "[+]Ingrese la IP de una pagina."
+echo "[+]Ingrese la IP de una pagina"
 echo -n -e "[IP] >> \e[1;37m\e[0m"
 read a
 echo ""
@@ -46,7 +46,7 @@ exit
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo "[+]Ingrese el dominio para recompilar información."
+echo "[+]Ingrese el dominio para recompilar información"
 echo -n -e "[Ej:facebook.com] >> \e[1;37m\e[0m"
 read b
 echo ""
@@ -75,7 +75,7 @@ exit
 echo ""
 #! /bin/bash
 setterm -foreground green 
-echo "[+]Ingrese una IP Publica que desea obtener información."
+echo "[+]Ingrese una IP Publica que desea obtener información"
 echo -n -e "[OSINT] >> \e[1;37m\e[0m"
 read c
 echo ""
