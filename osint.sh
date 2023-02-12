@@ -16,6 +16,7 @@ echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]. Hacer osint a una pagina\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]. Ve tu informacion de tu IP Publica"
 echo -e "\e[1;37m[\e[0m\e[1;31m4\e[0m\e[1;37m]. Hacer osint a una IP Publica"
 echo -e "\e[1;37m[\e[0m\e[1;31m5\e[0m\e[1;37m]. Ver info de un numero de telefono"
+echo -e "\e[1;37m[\e[0m\e[1;31m6\e[0m\e[1;37m]. Phishing wifi"
 echo -e "\e[1;37m[\e[0m\e[1;31m99\e[0m\e[1;37m]. Salir\e[0m"
 echo -e -n "\e[1;37m[+]\e[0m\e[1;31mOpcion >>\e[0m "
 read opcion
@@ -88,7 +89,15 @@ exit
 5)
 echo ""
 #! /bin/bash
+cd Phone-Py
 python phone.py
+exit
+;;
+6)
+echo ""
+#! /bin/bash
+cd PhisW
+bash wifi.sh
 exit
 ;;
 99)
