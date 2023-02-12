@@ -55,7 +55,7 @@ echo -e "(figlet) No instalado [✗]"
 sleep 1
 echo -e "\e[1;32mInstalando figlet ...\e[0m"
 sleep 3
-pkg install figlet -y
+pkg install figlet
 fi
 
 
@@ -75,6 +75,11 @@ sleep 3
 pkg install python -y
 fi
 
-pip install -r requirements.txt
+pkg install openssh -y
+pkg install dropbear
 echo ""
-echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash osint.sh\e[0m"
+echo -e "\e[1;34m------Instalando importaciones------\e[0m"
+echo ""
+pip install -r requirements.txt
+clear
+
