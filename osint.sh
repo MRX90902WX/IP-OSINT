@@ -47,7 +47,7 @@ case $opcion in
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo "[+]Ingrese la IP de la pagina."
+echo "[+]Ingrese la IP de una pagina."
 echo -n "[IP] >> "
 read a
 echo ""
@@ -56,7 +56,7 @@ sleep 3
 echo ""
 echo "---------Informacion----------"
 sleep 1
-setterm -foregeound yellow
+setterm -foreground yellow
 whois $a
 exit
 ;;
