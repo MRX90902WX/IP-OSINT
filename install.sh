@@ -44,7 +44,7 @@ fi
 pkg install openssh -y
 pkg install dropbear -y
 echo ""
-setterm-foreground blue
+setterm -foreground blue
 echo -e "\e[1;34m------Instalando importaciones------\e[0m"
 echo ""
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ sleep 1
 echo ""
 git clone https://github.com/MRX90902WX/PhishW
 git clone https://github.com/MRX90902WX/Phone-Py
-
+echo ""
 echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash osint.sh\e[0m"
 
 
