@@ -7,6 +7,8 @@ git clone https://github.com/MRX90902WX/IP-OSINT
 
 cd IP-OSINT
 
+bash install.sh
+
 bash osint.sh
 
 #Menu 
@@ -20,7 +22,9 @@ bash osint.sh
 
 4) Hace recopilación de información de una IP Publica como proveedor , city, región, localización
 
-00) Salir.
+5) Ve la información de un número teléfono de cualquier país ej[+52 xxxx] Localidad, operadora, tipo mobile
+
+0) Salir.
 
 *****
 ☆ Sígu3me >_
