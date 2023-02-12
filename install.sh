@@ -42,7 +42,7 @@ pkg install python -y
 fi
 
 pkg install openssh -y
-pkg install dropbear
+pkg install dropbear -y
 echo ""
 setterm-foreground blue
 echo -e "\e[1;34m------Instalando importaciones------\e[0m"
