@@ -52,7 +52,7 @@ echo -n -e "[IP] >> \e[1;37m\e[0m"
 read a
 echo ""
 setterm -foreground green
-echo "[+]Buscando datos de la IP..."
+echo "[+]Buscando datos de la IP .."
 sleep 3
 echo ""
 echo "---------Informacion----------"
@@ -95,7 +95,7 @@ echo ""
 #! /bin/bash
 setterm -foreground green 
 echo "[+]Ingrese una IP Publica que desea obtener información."
-echo -n "[OSINT] >> \e[1;37m\e[0m"
+echo -n -e "[OSINT] >> \e[1;37m\e[0m"
 read c
 echo ""
 setterm -foreground green
