@@ -24,6 +24,21 @@ sleep 3
 pkg install whois -y
 fi
 
+directory=$(pwd)
+
+
+if which nmap >/dev/null; then
+sleep 1
+echo ""
+echo -e "$blue(nmap) ................................................... Instalado [✓]"
+else
+sleep 1
+echo -e "(nmap) No instalado [✗]"
+sleep 1
+echo -e "\e[1;32mInstalando nmap ...\e[0m"
+sleep 3
+pkg install nmap -y
+fi
 
 directory=$(pwd)
 
