@@ -24,7 +24,9 @@ bash osint.sh
 
 5) Ve la información de un número teléfono de cualquier país ej[+52 xxxx] Localidad, operadora, tipo mobile
 
-6) Phishing wifi perzonalido con html, css y php
+6) Muestra la versión ssh de un servidor, esto sirve para ver si es vulnerable o no 
+
+7) Phishing wifi perzonalido con html, css y php
 
 0) Salir.
 
