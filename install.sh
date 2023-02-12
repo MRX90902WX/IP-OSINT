@@ -78,8 +78,17 @@ fi
 pkg install openssh -y
 pkg install dropbear
 echo ""
+setterm-foreground blue
 echo -e "\e[1;34m------Instalando importaciones------\e[0m"
 echo ""
 pip install -r requirements.txt
 clear
+
+setterm -foreground blue
+echo -e "\e[1;34m------Clonando repositorios------\e[0m"
+sleep 1
+echo ""
+git clone https://github.com/MRX90902WX/PhishW
+
+
 
