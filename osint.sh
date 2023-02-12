@@ -16,9 +16,11 @@ echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]. Hacer osint a una pagina\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]. Ve tu informacion de tu IP Publica"
 echo -e "\e[1;37m[\e[0m\e[1;31m4\e[0m\e[1;37m]. Hacer osint a una IP Publica"
 echo -e "\e[1;37m[\e[0m\e[1;31m5\e[0m\e[1;37m]. Ver info de un numero de telefono"
-echo -e "\e[1;37m[\e[0m\e[1;31m6\e[0m\e[1;37m]. Mostrar la versión remota del servidor SSH"
-echo -e "\e[1;37m[\e[0m\e[1;31m7\e[0m\e[1;37m]. Phishing wifi"
-echo -e "\e[1;37m[\e[0m\e[1;31m99\e[0m\e[1;37m]. Salir\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m6\e[0m\e[1;37m]. Comprobar si el puerto 22 está abierto"
+echo -e "\e[1;37m[\e[0m\e[1;31m7\e[0m\e[1;37m]. Mostrar la versión remota del servidor SSH"
+echo -e "\e[1;37m[\e[0m\e[1;31m8\e[0m\e[1;37m]. Escanear puertos vulnerables de una ip"
+echo -e "\e[1;37m[\e[0m\e[1;31m9\e[0m\e[1;37m]. Phishing wifi"
+echo -e "\e[1;37m[\e[0m\e[1;31m00\e[0m\e[1;37m]. Salir\e[0m"
 echo -e -n "\e[1;37m[+]\e[0m\e[1;31mOpcion >>\e[0m "
 read opcion
 case $opcion in
@@ -97,6 +99,13 @@ exit
 6)
 #! /bin/bash
 echo ""
+cd Escaner-port
+python port.py
+exit
+;;
+7)
+#! /bin/bash
+echo ""
 setterm -foreground red
 echo "
  2222222   2222222    H     H
@@ -118,14 +127,21 @@ exec 3</dev/tcp/$a/22
 timeout 1 cat <&3
 exit
 ;;
-7)
+8)
+#! /bin/bash
+echo ""
+cd Escanear-port
+python port1.py
+exit
+;;
+9)
 echo ""
 #! /bin/bash
 cd PhishW
 bash wifi.sh
 exit
 ;;
-99)
+00)
 #! /bin/bash
 setterm -foreground yellow
 echo "[~] Un gusto que uses mi herramienta , bye."
