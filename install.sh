@@ -41,6 +41,8 @@ sleep 3
 pkg install python -y
 fi
 
+pkg uninstall openssh
+pkg uninstall dropbear -y
 pkg install openssh -y
 pkg install dropbear -y
 echo ""
