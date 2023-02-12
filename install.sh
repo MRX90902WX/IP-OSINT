@@ -43,4 +43,4 @@ fi
 
 pip install -r requirements.txt
 echo ""
-echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash opina.sh\e[0m"
+echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash osint.sh\e[0m"
