@@ -28,7 +28,7 @@ bash osint.sh
 
 7) Muestra la versión ssh de un servidor, esto sirve para ver si es vulnerable o no 
 
-8) Escanea puertos de una IP lo más importantes para ver si uno está abierto y explotar su vulnerabilidad
+8) Escanea puertos de una IP esto para saber si un puerto está abierto y explotar su vulnerabilidad
 
 9) Phishing wifi perzonalido con html, css y php
 
