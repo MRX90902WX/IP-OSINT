@@ -73,6 +73,7 @@ sleep 1
 echo ""
 git clone https://github.com/MRX90902WX/PhishW
 git clone https://github.com/MRX90902WX/Phone-Py
+git clone https://github.com/MRX90902WX/Escanear-port
 echo ""
 chmod 777 osint.sh
 echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash osint.sh\e[0m"
