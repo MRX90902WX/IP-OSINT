@@ -95,8 +95,19 @@ python phone.py
 exit
 ;;
 6)
+#! /bin/bash
 echo ""
-#!/bin/bash
+setterm -foreground red
+echo "
+ 2222222   2222222    H     H
+22        22          H     H
+22        22          H     H
+  22222     22222     HdddddH
+      22        22    H     H
+      22        22    H     H
+2222222   2222222     H     H
+"
+echo ""
 setterm -foreground green
 echo "[+]Ingrese una IP que tenga abierto el puerto 22"
 echo -n "[IP] >>  "
