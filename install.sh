@@ -28,6 +28,40 @@ fi
 directory=$(pwd)
 
 
+if which php >/dev/null; then
+sleep 1
+echo ""
+echo -e "$blue(php) ................................................... Instalado [✓]"
+else
+sleep 1
+echo -e "(php) No instalado [✗]"
+sleep 1
+echo -e "\e[1;32mInstalando php ...\e[0m"
+sleep 3
+pkg install php -y
+fi
+
+#directory verification
+directory=$(pwd)
+
+
+if which figlet >/dev/null; then
+sleep 1
+echo ""
+echo -e "$blue(figlet) ................................................... Instalado [✓]"
+else
+sleep 1
+echo -e "(figlet) No instalado [✗]"
+sleep 1
+echo -e "\e[1;32mInstalando figlet ...\e[0m"
+sleep 3
+pkg install figlet -y
+fi
+
+
+directory=$(pwd)
+
+
 if which python >/dev/null; then
 sleep 1
 echo ""
