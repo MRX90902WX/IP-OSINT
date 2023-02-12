@@ -110,7 +110,7 @@ echo "
 echo ""
 setterm -foreground green
 echo "[+]Ingrese una IP que tenga abierto el puerto 22"
-echo -n "[IP] >> \e[1;37m\e[0m"
+echo -n -e "[IP] >> \e[1;37m\e[0m"
 read a
 echo ""
 echo -e "\e[1;36mVERSIÓN SSH DEL SERVIDOR\e[0m"
