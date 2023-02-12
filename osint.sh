@@ -21,7 +21,7 @@ echo -e "(whois) No instalado [✗]"
 sleep 1
 echo -e "\e[1;32mInstalando whois ...\e[0m"
 sleep 3
-pkg install whois
+pkg install whois -y
 fi
 
 clear
@@ -47,11 +47,11 @@ case $opcion in
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo "[+]Ingrese la IP de la pagina que desee sacar informacion"
+echo "[+]Ingrese la IP de la pagina."
 echo -n "[IP] >> "
 read a
 echo ""
-echo "[+]Buscando info de la IP..."
+echo "[+]Buscando datos de la IP..."
 sleep 3
 echo ""
 echo "---------Informacion----------"
@@ -64,7 +64,7 @@ exit
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo "[+]Ingrese el dominio para recompilar informacion publica"
+echo "[+]Ingrese el dominio para recompilar información."
 echo -n "[Ej:facebook.com] >> "
 read b
 echo ""
@@ -92,7 +92,7 @@ exit
 echo ""
 #! /bin/bash
 setterm -foreground green 
-echo "[+]Ingrese la IP Publica que desea recopilar informacion"
+echo "[+]Ingrese una IP Publica que desea obtener información."
 echo -n "[OSINT] >> "
 read c
 echo ""
