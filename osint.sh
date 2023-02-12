@@ -99,7 +99,7 @@ exit
 6)
 #! /bin/bash
 echo ""
-cd Escaner-port
+cd Escanear-port
 python port.py
 exit
 ;;
