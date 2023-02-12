@@ -24,11 +24,15 @@ bash osint.sh
 
 5) Ve la información de un número teléfono de cualquier país ej[+52 xxxx] Localidad, operadora, tipo mobile
 
-6) Muestra la versión ssh de un servidor, esto sirve para ver si es vulnerable o no 
+6) Comprobar si el puerto 22 esta abierto
 
-7) Phishing wifi perzonalido con html, css y php
+7) Muestra la versión ssh de un servidor, esto sirve para ver si es vulnerable o no 
 
-0) Salir.
+8) Escanea puertos de una IP lo más importantes para ver si uno está abierto y explotar su vulnerabilidad
+
+9) Phishing wifi perzonalido con html, css y php
+
+00) Salir.
 
 *****
 ☆ Sígu3me >_
