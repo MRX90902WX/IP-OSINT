@@ -42,4 +42,5 @@ pkg install python -y
 fi
 
 pip install -r requirements.txt
-bash osint.sh
+echo ""
+echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash opina.sh\e[0m"
