@@ -96,7 +96,7 @@ exit
 6)
 echo ""
 #! /bin/bash
-cd PhisW
+cd PhishW
 bash wifi.sh
 exit
 ;;
