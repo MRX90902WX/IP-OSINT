@@ -156,7 +156,6 @@ exit
 cd /data/data/com.termux/files/home/IP-OSINT/PhishW
 echo ""
 #! /bin/bash
-cd PhishW
 bash wifi.sh
 exit
 ;;
