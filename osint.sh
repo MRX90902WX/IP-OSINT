@@ -54,7 +54,7 @@ echo -n -e "[Ej:facebook.com] >> \e[1;37m\e[0m"
 read b
 echo ""
 setterm -foreground green
-echo "[+]Haciendo osint a $b ..."
+echo "[+]Haciendo osint a ($b) ..."
 sleep 3
 echo ""
 echo "---------OSINT----------"
