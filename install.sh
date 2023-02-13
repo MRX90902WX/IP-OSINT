@@ -4,7 +4,7 @@ white="\033[1;37m"
 green="\033[1;32m"
 blue="\033[1;34m"
 
-echo -e "\e[1;34m------Verificando requisito------\e[0m"
+echo -e "\e[1;34m------Verificando requisitos------\e[0m"
 echo ""
 
 #directory verification
