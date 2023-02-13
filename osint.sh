@@ -153,7 +153,7 @@ python port1.py
 exit
 ;;
 10)
-/data/data/com.termux/files/home/IP-OSINT/PhishW
+cd /data/data/com.termux/files/home/IP-OSINT/PhishW
 echo ""
 #! /bin/bash
 cd PhishW
