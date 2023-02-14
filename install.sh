@@ -24,6 +24,24 @@ sleep 3
 pkg install whois -y
 fi
 
+#directory verification
+directory=$(pwd)
+
+
+if which nmap >/dev/null; then
+sleep 1
+echo ""
+echo -e "$blue(nmap) ................................................... Instalado [✓]"
+else
+sleep 1
+echo -e "(nmap) No instalado [✗]"
+sleep 1
+echo -e "\e[1;32mInstalando nmap ...\e[0m"
+sleep 3
+pkg install nmap -y
+fi
+
+
 directory=$(pwd)
 
 
@@ -59,6 +77,7 @@ git clone https://github.com/MRX90902WX/PhishW
 git clone https://github.com/MRX90902WX/Phone-Py
 git clone https://github.com/MRX90902WX/Escanear-port
 git clone https://github.com/MRX90902WX/SABER-IP-DE-UNA-PAGINA
+git clone https://github.com/MRX90902WX/System-Py
 echo ""
 chmod 777 osint.sh
 echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash osint.sh\e[0m"
