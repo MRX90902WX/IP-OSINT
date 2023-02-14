@@ -77,7 +77,7 @@ git clone https://github.com/MRX90902WX/Modules-de-IP-OSINT
 git clone https://github.com/MRX90902WX/PhishW
 echo ""
 chmod 777 osint.sh
-bash osint.sh
+echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash osint.sh\e[0m"
 
 
 
