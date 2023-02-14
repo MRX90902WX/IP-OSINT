@@ -162,7 +162,7 @@ figlet -f small NmapV
 setterm -foreground green
 sleep 1
 setterm -foreground red
-echo "                    v.1.7"
+echo "                    v.1.9"
 echo ""
 setterm -foreground green
 echo "ESTA SCRIPT ES PARA ENCONTRAR VULNERABILIDADES EN LA PAGINA DEL OBJETIVO"
