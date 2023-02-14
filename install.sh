@@ -73,14 +73,11 @@ setterm -foreground blue
 echo -e "\e[1;34m------Clonando repositorios------\e[0m"
 sleep 1
 echo ""
+git clone https://github.com/MRX90902WX/Modules-de-IP-OSINT
 git clone https://github.com/MRX90902WX/PhishW
-git clone https://github.com/MRX90902WX/Phone-Py
-git clone https://github.com/MRX90902WX/Escanear-port
-git clone https://github.com/MRX90902WX/SABER-IP-DE-UNA-PAGINA
-git clone https://github.com/MRX90902WX/System-Py
 echo ""
 chmod 777 osint.sh
-echo -e "\e[1;34mEjecuta :\e[0m \e[1;32mbash osint.sh\e[0m"
+bash osint.sh
 
 
 
