@@ -220,12 +220,10 @@ esac
 done
 ;;
 11)
-cd /data/data/com.termux/files/home/System-Py
+cd /data/data/com.termux/files/home/IP-OSINT/System-Py
 #! /bin/bash
 echo ""
 python system.py
-echo ""
-main.sh
 exit
 ;;
 12)
