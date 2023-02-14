@@ -34,7 +34,7 @@ bash osint.sh
 
 10) Escanea en busca de vulnerabilidad de una pagina con nmap
 
-11) Muestra datos del sistema Termux/Linux
+11) Muestra datos del sistema Termux
 
 12) Phishing wifi perzonalido con html, css y php
 
