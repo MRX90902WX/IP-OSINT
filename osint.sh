@@ -95,7 +95,6 @@ setterm -foreground green
 echo "[+]Scaneando posibles servicios abiertos de ($c) ..."
 sleep 2
 nmap -sV -sC $c
-echo "Se completo el escaneo con exito"
 echo ""
 bash main.sh
 exit
