@@ -30,7 +30,7 @@ bash osint.sh
 
 8) Muestra la IP de una pagina
 
-9) Escanea 23 puertos de una IP
+9) Escanea 24 puertos de una IP
 
 10) Escanea en busca de vulnerabilidad de una pagina con nmap
 
