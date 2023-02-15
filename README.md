@@ -20,7 +20,7 @@ bash osint.sh
 
 3) Ve tu IP Publica asignada por tu wifi local
 
-4) Hace recopilación de información de una IP Publica como proveedor , city, región, localización
+4) Ve servicios que se están corriendo en la IP
 
 5) Ve la información de un número teléfono de cualquier país ej[+52 xxxx] Localidad, operadora, tipo mobile
 
