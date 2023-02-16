@@ -18,7 +18,7 @@ bash osint.sh
 
 2) Hace recopilación de información pública a una pagina como city, codigo postal,  correos , servidores , números de teléfonos etc
 
-3) Ve tu IP Publica asignada por tu wifi local
+3) Un generador de bin de Youtube premiun 
 
 4) Ve servicios que se están corriendo en la IP
 
