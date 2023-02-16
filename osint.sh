@@ -25,7 +25,7 @@ echo -e "\e[1;37m[\e[0m\e[1;31m11\e[0m\e[1;37m]. Mostrar datos del sistema\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m12\e[0m\e[1;37m]. Phishing wifi\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m99\e[0m\e[1;37m]. Salir\e[0m"
 echo ""
-echo -e "\e[1;36mGithub:\e[0m \e[1;37mhttps://github.com/MRX90902WX/IP-OSINT\e[0m"
+echo -e "\e[1;36mGithub:\e[0m \e[1;37mhttps://www.facebook.com/jimber.cevallos\e[0m"
 echo ""
 echo -e -n "\e[1;37m☆ I \e[0m\e[1;31mP \e[0m\e[1;33m- \e[0m\e[1;37mO \e[0m\e[1;31mP \e[0m\e[1;37mS \e[0m\e[1;31mI \e[0m\e[1;37mN >> \e[0m"
 read opcion
