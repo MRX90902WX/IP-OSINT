@@ -1,7 +1,7 @@
 # IP-OSINT
 Saca informacion de ip de una pagina , o recopila informacion publica con la tecnica osint > Herramienta para uso educativo no me responsabilizo de sus acciones.
 
-#USO
+#USO SOLO PARA TERNUX
 
 git clone https://github.com/MRX90902WX/IP-OSINT
 
