@@ -34,8 +34,8 @@ case $opcion in
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo "[+]Ingrese la IP de una pagina"
-echo -n -e "[IP] >> \e[1;37m\e[0m"
+echo -e "\e[1;32m[+]Ingrese la IP de una pagina\e[0m"
+echo -n -e "\e[1;32m[IP] >>\e[0m \e[1;37m\e[0m"
 read a
 echo ""
 setterm -foreground green
@@ -54,8 +54,8 @@ exit
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo "[+]Ingrese el dominio para recompilar información"
-echo -n -e "[Ej:facebook.com] >> \e[1;37m\e[0m"
+echo -e "\e[1;32m[+]Ingrese el dominio para recompilar información\e[0m"
+echo -n -e "\e[1;32m[Ej:facebook.com] >>\e[0m \e[1;37m\e[0m"
 read b
 echo ""
 setterm -foreground green
