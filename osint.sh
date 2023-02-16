@@ -13,16 +13,16 @@ while :
 do
 echo -e "\e[1;37m[\e[0m\e[1;31m1\e[0m\e[1;37m]. Sacar informacion IP de una pagina\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]. Hacer osint a una pagina\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]. Ve tu informacion de tu IP Publica"
-echo -e "\e[1;37m[\e[0m\e[1;31m4\e[0m\e[1;37m]. Ver los servicios que se están corriendo"
-echo -e "\e[1;37m[\e[0m\e[1;31m5\e[0m\e[1;37m]. Ver info de un numero de telefono"
-echo -e "\e[1;37m[\e[0m\e[1;31m6\e[0m\e[1;37m]. Comprobar si el puerto 22 está abierto"
-echo -e "\e[1;37m[\e[0m\e[1;31m7\e[0m\e[1;37m]. Mostrar la versión remota del servidor SSH"
+echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]. Generador de bin para Youtube Premiun\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m4\e[0m\e[1;37m]. Ver los servicios que se están corriendo\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m5\e[0m\e[1;37m]. Ver info de un numero de telefono\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m6\e[0m\e[1;37m]. Comprobar si el puerto 22 está abierto\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m7\e[0m\e[1;37m]. Mostrar la versión remota del servidor SSH\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m8\e[0m\e[1;37m]. Saber la IP de una pagina\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m9\e[0m\e[1;37m]. Escanear puertos vulnerables de una IP"
-echo -e "\e[1;37m[\e[0m\e[1;31m10\e[0m\e[1;37m]. Escanear vulnerabilidades de un dominio"
+echo -e "\e[1;37m[\e[0m\e[1;31m9\e[0m\e[1;37m]. Escanear puertos vulnerables de una IP\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m10\e[0m\e[1;37m]. Escanear vulnerabilidades de un dominio\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m11\e[0m\e[1;37m]. Mostrar datos del sistema\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m12\e[0m\e[1;37m]. Phishing wifi"
+echo -e "\e[1;37m[\e[0m\e[1;31m12\e[0m\e[1;37m]. Phishing wifi\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m99\e[0m\e[1;37m]. Salir\e[0m"
 echo ""
 echo -e "\e[1;36mGithub:\e[0m \e[1;37mhttps://github.com/MRX90902WX/IP-OSINT\e[0m"
@@ -71,28 +71,20 @@ bash main.sh
 exit
 ;;
 3)
+cd /data/data/com.termux/files/home/IP-OSINT/Modules-de-IP-OSINT
 echo ""
 #! /bin/bash
-setterm -foreground green
-echo "[+]Cargando info de tu IP Publica .."
-sleep 2
-echo ""
-setterm -foreground yellow
-curl "ipinfo.io/$ip?token=6013e923bd8fe3"
-echo ""
-bash main.sh
+python bin.py
 exit
 ;;
 4)
 echo ""
 #! /bin/bash
-setterm -foreground green 
-echo "[+]Ingrese una IP de un dominio"
-echo -n -e "[Scan] >> \e[1;37m\e[0m"
+echo -n -e "\e[1;32m[+]Ingrese la IP de un dominio >\e[0m \e[1;37m\e[0m"
 read c
 echo ""
 setterm -foreground green
-echo "[+]Scaneando posibles servicios abiertos de ($c) ..."
+echo "[+]Escaneando posibles servicios abiertos de ($c) ..."
 sleep 2
 nmap -sV -sC $c
 echo ""
