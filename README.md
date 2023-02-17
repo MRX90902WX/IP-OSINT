@@ -24,7 +24,7 @@ bash osint.sh
 
 5) Ve la información de un número teléfono de cualquier país ej[+52 xxxx] Localidad, operadora, tipo mobile
 
-6) Comprobar si el puerto 22 esta abierto
+6) Lee archivos.txt dentro del directorio IP-OSINT
 
 7) Muestra la versión ssh de un servidor, esto sirve para ver si es vulnerable o no 
 
