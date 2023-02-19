@@ -218,7 +218,7 @@ echo ""
 #! /bin/bash
 echo -e "\e[1;37m[#]Buscando vulnerabilidades espere un momento...\e[0m"
 
-#Esta funcion hace que al ejecutarse nmap -sC -sV --script vuln $url busque la vulerabilidad del dominio
+#Esta funcion hace que al ejecutarse nmap -sC -sV --script vuln $url busque la vulerabilidad de la IP
 sleep 1
 echo ""
 echo "=============================================="
