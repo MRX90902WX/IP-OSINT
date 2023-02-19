@@ -177,7 +177,7 @@ setterm -foreground red
 echo "                    v.1.9"
 echo ""
 setterm -foreground green
-echo "ESTA SCRIPT ES PARA ENCONTRAR VULNERABILIDADES EN LA PAGINA DEL OBJETIVO"
+echo "SCRIPT PARA ENCONTRAR VULNERABILIDADES EN LA PAGINA DEL OBJETIVO"
 sleep 1
 echo ""
 echo -e -n "\e[1;34m[+]Escriba la IP Objetivo >>\e[0m \e[1;32m\e[0m"
