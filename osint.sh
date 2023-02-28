@@ -83,14 +83,14 @@ read bin
 case $bin in
 1)
 #! /bin/bash
-python Hack4lx.py
+python Hack4.py
 echo ""
 bash main.sh
 exit
 ;;
 2)
 #! /bin/bas
-python Hack4lxMesA.py
+python Hack4MesA.py
 echo ""
 bash main.sh
 exit
