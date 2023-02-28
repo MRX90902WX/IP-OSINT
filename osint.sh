@@ -75,7 +75,7 @@ echo ""
 #! /bin/bash
 while :
 do 
-echo -e -n " \e[1;32m1)\e[0m\e[1;37mGenerar bin Rnd\e[0m       \e[1;32m2)\e[1;37mGenerar bin con fecha Rnd\e[0m"
+echo -e -n " \e[1;32m1)\e[0m\e[1;37mGenerar bin Rnd\e[0m      \e[1;32m2)\e[1;37mGenerar bin con fecha Rnd\e[0m"
 echo ""
 echo ""
 echo -n -e " \e[1;32mOpción: "
