@@ -18,7 +18,7 @@ bash osint.sh
 
 2) Hace recopilación de información pública a una pagina como city, codigo postal,  correos , servidores , números de teléfonos etc
 
-3) Un generador de bin de Youtube premiun 
+3) Un generador de bin sin fecha o con fecha
 
 4) Ve servicios que se están corriendo en la IP
 
