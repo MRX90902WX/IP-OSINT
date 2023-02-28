@@ -1,0 +1,50 @@
+Chekers para youtube premiun (probar para Spotify)
+424094  --> País USA cp=10080
+542945   --> País USA cp=10080 
+
+#METODO PARA HACER BINS 
+
+1er paso
+424094 [pegar los últimos días números de una cc generada) 
+
+2do paso
+Remplazar los últimos 6 números por x
+ejemplo:
+Bin
+4240946254xxxxxx 
+
+3er paso 
+Generar ese bin de ejemplo en un generador de Bin (namso) sin fecha sin cvv 
+
+4to paso
+Asociar una targeta generada con ese bin a la Google play para Youtube Premiun también para Spotify
+
+#NOTA: PUEDEN HACER EL MISMO PROCESO CON EL CHECKER 542945
+
+------
+REGALO 
+------
+
+BINS DE YOUTUBE PREMIUN
+IP = USA
+CP = 10080
+
+4240940804xxxxxx
+5429457684xxxxxx
+
+#Creador del metodo para extrapolarlas 
+- Demo
+
+#Herramienta de bins para termux
+Pueden usar estas herramientas para generar cc y funcionarlas con el checker
+
+1.Generador de CC'S
+https://github.com/MRX90902WX/AIO-CC
+
+2.Generador de bins
+https://github.com/MRX90902WX/Hack4lx-Bin
+
+ojo : clonen los repositorios con el comando git clone
+
+
+
