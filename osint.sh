@@ -70,33 +70,11 @@ bash main.sh
 exit
 ;;
 3)
-cd /data/data/com.termux/files/home/IP-OSINT/Modules-de-IP-OSINT
+cd /data/data/com.termux/files/home/IP-OSINT/BIN
+bash iniciar.sh
 echo ""
-#! /bin/bash
-while :
-do 
-echo -e -n " \e[1;32m1)\e[0m\e[1;37mGenerar bin Rnd\e[0m      \e[1;32m2)\e[1;37mGenerar bin con fecha Rnd\e[0m"
-echo ""
-echo ""
-echo -n -e " \e[1;32mOpción: "
-read bin
-case $bin in
-1)
-#! /bin/bash
-python Hack4.py
-echo ""
+cd /data/data/com.termux/files/home/IP-OSINT
 bash main.sh
-exit
-;;
-2)
-#! /bin/bas
-python Hack4MesA.py
-echo ""
-bash main.sh
-exit
-;;
-esac
-done
 exit
 ;;
 4)
